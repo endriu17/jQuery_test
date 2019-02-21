@@ -31,6 +31,6 @@ $(function() {
   })
 
   $('button').click(function() {
-    alert($(this).attr('data-tmp'));
+    alert('Index of this element is: ' + $(this).attr('data-tmp'));
   })
 });
